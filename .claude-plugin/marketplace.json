@@ -1,0 +1,36 @@
+{
+  "name": "salad-bar",
+  "owner": {
+    "name": "FantasticSalad"
+  },
+  "description": "Small Claude Code plugins for running AI coding sessions without trusting them blindly. Pick what you want.",
+  "plugins": [
+    {
+      "name": "noticeboard",
+      "source": {
+        "source": "github",
+        "repo": "FantasticSalad/noticeboard"
+      },
+      "description": "Lets your sessions, on one machine or several, leave each other posts in a folder you already sync. No server.",
+      "category": "productivity"
+    },
+    {
+      "name": "whats-open",
+      "source": {
+        "source": "github",
+        "repo": "FantasticSalad/whats-open"
+      },
+      "description": "One read-only report of unfinished git work across all your repos.",
+      "category": "productivity"
+    },
+    {
+      "name": "last-drinks",
+      "source": {
+        "source": "github",
+        "repo": "FantasticSalad/last-drinks"
+      },
+      "description": "Every session ends landed or parked: it lands each branch after the repo's checks, or parks it with a note to resume from, and lists what needs you. Never deploys.",
+      "category": "productivity"
+    }
+  ]
+}
